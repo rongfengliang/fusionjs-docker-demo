@@ -1,0 +1,7 @@
+version: "3"
+services:
+   fusion:
+     build: ./
+     image: dalongrong/fusion-start-demo
+     ports:
+     - "3000:3000"
